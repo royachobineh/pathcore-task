@@ -1,9 +1,3 @@
-# flap-client
-
-Flap-client is a React application designed for technical assessments.
-
-The packages required to solve this assessment are already in project, so adding additional dependences via `yarn`/`npm` should not be necessary
-
 # Requirements
 
 - `Node v16+`
@@ -34,32 +28,29 @@ In addition to this base directory structure, this project has two modes (so far
 
 Note that the `flap` part of this project is only required if you've been instructed to use it, if it's not detected/set up the app's `local` mode should work just fine.
 
-# Submission
-
+Submission
 To submit your results clone this repo and push it to your own git repository.
 
-1. Create a new repo on your Github/Gitlab page
+Create a new repo on your Github/Gitlab page
 
-2. Clone this repo
+Clone this repo
 
-3. `cd flap-client`
+cd flap-client
 
-4. Change the origin
+Change the origin
 
-```
 git remote set-url origin https://github.com/<user>/<repo>.git
 
 git remote add upstream https://gitlab.com/pathcore-external/flap.git
 
 git remote -v
-```
 
-5. Push to your repo
+Push to your repo
 
-6. (Optional) Deploying to Github pages
+(Optional) Deploying to Github pages
 
-   - Change package.json's `homepage` key to point to own repo (eg `"homepage": "my-user.github.io/flap-client-submission"`)
-   - Change package.json's `scripts.build` key to point to own repo (eg `"build": "webpack --env.repo_name='flap-client-submission'"`)
-   - Run `yarn deploy`
+Change package.json's homepage key to point to own repo (eg "homepage": "my-user.github.io/flap-client-submission")
+Change package.json's scripts.build key to point to own repo (eg "build": "webpack --env.repo_name='flap-client-submission'")
+Run yarn deploy
 
-7. Email back to us with your repo and optionally your github pages url
+Email back to us with your repo and optionally your github pages url
